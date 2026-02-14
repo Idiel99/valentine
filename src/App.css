@@ -22,10 +22,26 @@ h1 {
 }
 
 .message {
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: normal;
   color: #fff;
   animation: pop 0.6s ease-in-out;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.message p {
+  margin-bottom: 15px;
+}
+
+.message strong {
+  color: #ffe6eb;
 }
 
 @keyframes pop {
